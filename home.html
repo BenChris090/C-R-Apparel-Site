@@ -16,30 +16,29 @@
 <body class="h-screen w-screen">
     <!-- Nav Starts Here -->
     <!-- My Mobile Nav Starts Here -->
-    <div id="mNav" class="mNav h-screen w-0 z-0 fixed left-0 top-0 bg-black overflow-x-hidden pt-4 ease-in duration-500">
+    <div id="mNav" class="h-screen w-0 z-0 fixed left-0 top-0 bg-black overflow-x-hidden pt-4 ease-in duration-500">
         <a href="javascript:void(0)"><i class="fas fa-times fa-x text-yellow-400 absolute top-3 right-6" onclick="closeNav()"></i></a>
-        <a href="#" class="text-gray-200 mt-5 items-center text-center space-y-2 block hover:text-yellow-400 ease-in duration-300 text-sm">Our Stories</a></li>
-        <a href="#" class="text-gray-200 mt-5 items-center text-center space-y-2 block hover:text-yellow-400 ease-in duration-300 text-sm">Pricing</a></li>
-        <a href="#" class="text-gray-200 mt-5 items-center text-center space-y-2 block hover:text-yellow-400 ease-in duration-300 text-sm">Support</a></li>
-        <a href="#" class="text-gray-200 mt-5 items-center text-center space-y-2 block hover:text-yellow-400 ease-in duration-300 text-sm">Sign In</a></li>
-        <a href="#" class="text-gray-200 mt-5 items-center text-center space-y-2 block hover:text-yellow-400 ease-in duration-300 text-sm">Get Started</a></li>
+        <a href="#" class="text-gray-200 mt-5 text-center space-y-2 block hover:text-yellow-400 ease-in duration-500 text-sm">Our Stories</a></li>
+        <a href="#" class="text-gray-200 mt-5 text-center space-y-2 block hover:text-yellow-400 ease-in duration-500 text-sm">Pricing</a></li>
+        <a href="#" class="text-gray-200 mt-5 text-center space-y-2 block hover:text-yellow-400 ease-in duration-500 text-sm">Support</a></li>
+        <a href="#" class="text-gray-200 mt-5 text-center space-y-2 block hover:text-yellow-400 ease-in duration-500 text-sm">Sign In</a></li>
+        <a href="#" class="text-gray-200 mt-5 text-center space-y-2 block hover:text-yellow-400 ease-in duration-500 text-sm">Get Started</a></li>
     </div>
     <!-- My Mobile Nav Ends Here -->
-    <nav id="main" class="w-screen flex space-x-24 bg-black h-50 px-2 py-2 lg:h-20 lg:space-x-28 lg:px-5 lg:space-y-4">
+    <nav id="main" class="w-screen flex justify-between bg-black h-50 px-2 py-2 lg: lg:w-full lg:space-x-60 lg:px-4 lg:space-y-4 lg:sticky lg:top-0">
         <h1 class="text-2xl text-start text-yellow-400 font-[Concert one] lg:flex lg:inline-block lg:text-4xl lg:pt-3">C <span class="text-gray-200">&</span> R <span class="text-yellow-400 pl-2"></span>Apparel</span></h1>
-        <i class="fas fa-bars fa-x text-yellow-400 mt-2 lg:hidden lg:invisible" onclick="openNav()"></i>
+        <i class="fas fa-bars fa-x text-yellow-400 mt-2 lg:hidden" onclick="openNav()"></i>
         <!-- My Desktop Nav Starts Here -->
-        <ul class="hidden text-stone-400 mt-5 items-center text-center space-y-2 lg:flex lg:space-x-10 lg:mt-0 lg:pb-5">
+        <ul class="hidden mt-5 items-center text-center space-y-2 lg:flex lg:space-x-10 lg:mt-0 lg:pb-5">
             <li><a href="#" class="text-yellow-400 text-xl pb-2 border-b-2 border-yellow-400">Our Stories</a></li>
             <li><a href="#" class="text-gray-200 text-xl">Pricing</a></li>
             <li><a href="#" class="text-gray-200 text-xl">Support</a></li>
-            <li><a href="#" class="text-gray-200 text-xl lg:ml-52">Sign In</a></li>
-            <li><a href="#" class="text-gray-200 text-xl">Get Started</a></li>
+            <li><a href="#" class="text-yellow-400 border-2 border-yellow-400 rounded-3xl pb-2 px-4 hover:text-yellow-600 hover:border-yellow-600 border-2 ease-in duration-500 lg:ml-2 text-xl">Sign In</a></li>
         </ul>
         <!-- My Desktop Nav Ends Here -->
     </nav>
-    <main class="w-screen mt-5 justify-center inline-block lg:flex lg:mt-10">
-        <div class="items-center text-center">
+    <main class="w-screen mt-5 justify-around lg:space-x-24 lg:max-w-6xl lg:mx-5 lg:ml-20 lg:flex lg:mt-10">
+        <div class="items-center text-center lg:pt-24">
             <h1 class="text-yellow-400 text-4xl lg:text-6xl">WARDROBE<br>MANAGEMENT</h1>
             <h4  class="text-md lg:text-2xl"><span class="pb-2 border-b-2 border-yellow-400">Time</span> To Get Lit</h4>   
             <p class="mt-5 text-xl text-center px-4 justify-around lg:text-3xl lg:items-center lg:justify-around">You wouldn't fly without an altimeter, Speedometer,
@@ -49,12 +48,12 @@
             <button class="bg-yellow-400 border-2 border-yellow-600 justify-around rounded-3xl py-2 px-4 mt-5 inline-block hover:bg-yellow-600 ease-in duration-500 lg:justify-around lg:space-x-10 lg:items-center lg:ml-48" href="register.html"><b>Get Started</b></button>
             <button class="text-yellow-400 border-2 border-yellow-400 justify-around rounded-3xl py-2 px-4 inline-block mt-5 hover:text-yellow-600 hover:border-yellow-600 border-2 ease-in duration-500 lg:ml-2"><b>Read Our Stories</b></button>
         </div>
-    </div>
-        <div class="pt-none mt-none lg:mx-4">
-            <img src="images/SHIRT_LOGO_0.jpg" href="index.html" class="h-1/2 justify-around lg:h-full">
+        </div>
+        <div class="lg:max-w-lg">
+            <a href="index.html"><img src="images/SHIRT_LOGO_0.jpg" class="h-1/2 justify-around lg:h-full"></a>
         </div>
     </main>
-    <section class="p-4">
+    <section class="p-4 lg:mt-10 lg:max-w-6xl lg:ml-20">
         <h1 class = "text-center">OUR SERVICES</h1>
         <div class="">
             <div class="">
