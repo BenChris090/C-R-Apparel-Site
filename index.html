@@ -26,8 +26,12 @@
     </div>
     <!-- My Mobile Nav Ends Here -->
     <nav id="main" class="w-screen flex justify-between bg-black h-50 px-2 py-2 lg: lg:w-full lg:space-x-60 lg:px-4 lg:space-y-4 lg:sticky lg:top-0">
-        <h1 class="text-2xl text-start text-yellow-400 font-[Concert one] lg:flex lg:inline-block lg:text-4xl lg:pt-3">C <span class="text-gray-200">&</span> R <span class="text-yellow-400 pl-2"></span>Apparel</span></h1>
-        <i class="fas fa-bars fa-x text-yellow-400 mt-2 lg:hidden" onclick="openNav()"></i>
+        <h1 class="text-2xl text-start text-yellow-400 mb-2 font-[Concert one] lg:flex lg:inline-block lg:text-4xl lg:pt-3">C <span class="text-gray-200">&</span> R <span class="text-yellow-400 pl-2"></span>Apparel</span></h1>
+        <ul class="flex space-x-4 lg:hidden">
+            <li id="day" class="hidden"><i class="fas fa-sun fa-x text-yellow-400 mt-2" onclick="lMode()"></i></li>
+            <li id="night"><i class="fas fa-moon fa-x text-yellow-400 mt-2" onclick="nMode()"></i></li>
+            <li><i class="fas fa-bars fa-x text-yellow-400 mt-2" onclick="openNav()"></i></li>
+        </ul>
         <!-- My Desktop Nav Starts Here -->
         <ul class="hidden mt-5 items-center text-center space-y-2 lg:flex lg:space-x-10 lg:mt-0 lg:pb-5">
             <li><a href="#" class="text-yellow-400 text-xl pb-2 border-b-2 border-yellow-400">Our Stories</a></li>
@@ -40,8 +44,8 @@
     <main class="w-screen mt-5 justify-around lg:space-x-24 lg:max-w-6xl lg:mx-5 lg:ml-20 lg:flex lg:mt-10">
         <div class="items-center text-center lg:pt-24">
             <h1 class="text-yellow-400 text-4xl lg:text-6xl">WARDROBE<br>MANAGEMENT</h1>
-            <h4  class="text-md lg:text-2xl"><span class="pb-2 border-b-2 border-yellow-400">Time</span> To Get Lit</h4>   
-            <p class="mt-5 text-xl text-center px-4 justify-around lg:text-3xl lg:items-center lg:justify-around">You wouldn't fly without an altimeter, Speedometer,
+            <h4 id="relText" class="text-md lg:text-2xl"><span class="pb-2 border-b-2 border-yellow-400">Time</span> To Get Lit</h4>   
+            <p id="relTexts" class="mt-5 text-xl text-center px-4 justify-around lg:text-3xl lg:items-center lg:justify-around">You wouldn't fly without an altimeter, Speedometer,
                 Radar, or an aircraft Controller. Why shop for clothes without a valid source.
             </p>
         <div class="lg:flex">
@@ -50,10 +54,10 @@
         </div>
         </div>
         <div class="lg:max-w-lg">
-            <a href="index.html"><img src="images/SHIRT_LOGO_0.jpg" class="h-1/2 justify-around lg:h-full"></a>
+            <a href="index.html" class="h-96 w-96 m-4 rounded-full lg:w-full h-full"><img src="images/Shirt_Logo_2.png" class="h-64 w-64 ml-4 rounded-full text-center lg:w-full h-full"></a>
         </div>
     </main>
-    <section class="p-4 lg:mt-10 lg:max-w-6xl lg:ml-20">
+    <section id="relTexts1" class="p-4 lg:mt-10 lg:max-w-6xl lg:ml-20">
         <h1 class = "text-center">OUR SERVICES</h1>
         <div class="">
             <div class="">
