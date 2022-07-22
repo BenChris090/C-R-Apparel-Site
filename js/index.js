@@ -15,6 +15,8 @@ function nMode() {
     document.getElementById("relTexts1").style.color = "white";
     document.getElementById("night").style.display = "none";
     document.getElementById("day").style.display = "flex";
+    document.getElementById("main").style.boxShadow = "0px 15px 10px -15px white";
+    // 0px 15px 10px -15px #111
 }
 
 function lMode() {
