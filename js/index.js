@@ -9,7 +9,7 @@ function openNav() {
   }
 
 // mobile functions start here
-function nMode() {
+function mob_nMode() {
     document.body.style.backgroundColor = "black";
     document.getElementById("relText").style.color = "white";
     document.getElementById("relTexts").style.color = "white";
@@ -20,7 +20,7 @@ function nMode() {
     // 0px 15px 10px -15px #111
 }
 
-function lMode() {
+function mob_lMode() {
     document.getElementById("night").style.display = "flex";
     document.body.style.backgroundColor = "white";
     document.getElementById("relText").style.color = "black";
@@ -30,7 +30,7 @@ function lMode() {
 }
 // mobile functions ends here
 
-// mobile functions start here
+// desktop functions start here
 function nMode() {
   document.body.style.backgroundColor = "black";
   document.getElementById("relText").style.color = "white";
